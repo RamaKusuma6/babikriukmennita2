@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: arial;
+	background-color: black ;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.navbar{
+	width: 100%;
+	background-color: #232D3F;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo img{
+	width: 130px;
+	cursor: pointer;
+	margin: 5px 0;
+}
+
+.nav-menu{
+	width: 40%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 0 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.gambar {
+	height: 300px;
+	width: 800px;
+	background-image: url(img/men-nita.png);
+	background-size: cover;
+}
+.video{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.menu{ 
+ 	background-color: #232D3F;
+ 	width: 97%;
+ 	text-align: center;
+	margin: auto;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.countainer{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.countainer .item1{
+	width: 20%;
+	margin-top: 10px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+ 	background-color: #232D3F;
+
+}
+.countainer .item1 .foto-menu{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+.countainerMenu{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.countainerMenu .nama-menu{
+	width: 300px;
+	text-align: center;
+	font-family: mukta;
+	font-size: 30px;
+	color: white;
+	background-color: #232D3F;
+	margin: 5px;
+	border-radius: 10px;
+
+}
+.countainer{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.countainerButton{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.countainerButton .beli-menu{
+	width: 30%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+
+}
+.countainerButton .beli-menu{
+	width: 15%;
+	text-align: center;
+	font-family: mukta;
+	border-radius: 6px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #27005D;
+	margin: 5px;
+	transition: all 0.2s ease;
+}
+.countainerButton .beli-menu:active{
+	transform: scale(0.96);
+}
+
+.countainerMenu{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.countainerMenu .nama-menu{
+	width: 30%;
+	text-align: center;
+	font-family: mukta;
+	font-size: 30px;
+	color: white;
+	background-color: #232D3F;
+	margin: 5px;
+	border-radius: 10px;
+
+}
+.countainerButton .beli-menu{
+	width: 30%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+
+}
+.countainerButton .beli-menu{
+	width: 15%;
+	text-align: center;
+	font-family: mukta;
+	border-radius: 6px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #27005D;
+	margin: 5px;
+	transition: all 0.2s ease;
+}
+.countainerButton .beli-menu:active{
+	transform: scale(0.96);
+}
+.about{
+	background-color: #232D3F;
+ 	width: 97%;
+ 	text-align: center;
+ 	font-size: 28px;
+ 	color: white;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+.tentang{
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+.contact{
+	background-color: #232D3F;
+ 	width: 97%;
+ 	text-align: center;
+ 	font-size: 28px;
+ 	color: white;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+
+.instagram{
+	margin: auto;
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+.nomor{
+	margin-left: 50%;
+	margin-top: -40px;
+	padding-left: 5px;
+	font-size: 17px;
+	color: white;
+}
+.google-map{
+	margin-top: -45px;
+}
+.credit{
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	font-family: mukta;
+}
+
